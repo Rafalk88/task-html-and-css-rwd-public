@@ -1,0 +1,33 @@
+.header__logo {
+    margin: 30px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.h__btn {
+    width: 125px;
+    height: 50px;
+    color: #fff;
+    background-color: #42B3FA;
+    border: 1px solid #42B3FA;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    margin: 30px;
+}
+
+.header__btn {
+    margin: 30px 20px;
+}
+
+.header__section {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    margin-top: 100px;
+}
