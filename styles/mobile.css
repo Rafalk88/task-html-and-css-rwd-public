@@ -1,8 +1,11 @@
+.container {
+    width: 100%;
+}
+
 .header__img {
     background-image: url('./../images/banner/banner.png');
     background-repeat: no-repeat;
     background-position: center;
-    height: 900px;
 }
 
 .header__menu {
@@ -49,7 +52,7 @@ i {
 .header__section1 > h1 {
     font-weight: normal;
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1rem;
 }
 
