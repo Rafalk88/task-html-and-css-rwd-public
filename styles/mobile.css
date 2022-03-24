@@ -5,7 +5,7 @@
 .header__img {
     background-image: url('./../images/banner/banner.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 .header__menu {
@@ -125,4 +125,58 @@ h2 {
 
 .feature p {
     margin: 1.5rem 0;
+}
+
+.features__section h2,
+.features__section p {
+    margin: 0.5rem;
+}
+
+.features__section p {
+    color: rgb(97, 97, 97);
+}
+
+.features__section button {
+    background-color: rgb(1, 129, 245);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+.features__section__img {
+    margin: 1rem 0.5rem;
+}
+
+.features__section__img img {
+    width: 100%;
+}
+
+.review {
+    background-image: url('./../images/banner/testmonial.png');
+    background-position: top;
+    margin-top: 3rem;
+}
+
+.rev__cover {
+    background: rgba(32, 146, 248, 0.7);
+}
+
+.review .rev__cover h2 {
+    margin: 0;
+    padding-top: 4rem;
+    color: #fff;
+}
+
+.review .rev__cover p {
+    margin: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.review .rev__cover p:last-child {
+    padding-bottom: 6rem;
 }
