@@ -1,5 +1,9 @@
 :root {
-  --white: rgba(255, 255, 255, 1);
+  --gradient-blue: linear-gradient(to right, #0382F5, #52ACFE);
+    --gradient-orange: linear-gradient(to left, #FD8F5E, #FDAC5C);
+    --grey: rgba(0, 0, 0, 0.75);
   --light-black: rgba(44, 44, 44, 1);
   --light-blue: rgba(55, 235, 237, 1);
+  --light-green: rgba(55, 239, 141, 1);
+    --white: rgba(255, 255, 255, 1);
 }

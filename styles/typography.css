@@ -37,3 +37,6 @@
   .typo--white {
     color: var(--white);
 }
+.typo--grey {
+  color: var(--grey);
+}
