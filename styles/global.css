@@ -11,5 +11,15 @@ body, button {
 
 a {
     text-decoration: none;
-    color:#fff;
+    color: var(--white);
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }

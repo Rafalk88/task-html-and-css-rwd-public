@@ -1,31 +1,52 @@
-.container {
-    width: 100%;
+/* HEADER SECTION */
+
+.wrapper--header {
+    justify-content: space-between;
+    background-color: var(--light-black);
 }
 
-.header__img {
+.container--header {
     background-image: url('./../images/banner/banner.png');
     background-repeat: no-repeat;
     background-position: top;
 }
 
-.header__menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2C2C2C;
+.header__image {
+    height: 30px;
 }
 
-.header__logo {
-    margin: 1rem;
+.header__image a {
+    height: 30px;
+    display: flex;
+}
+
+.header__image-file {
+    scale: .65;
+}
+
+.menu__btn {
+    cursor: pointer;
+    display: flex;
+    margin-right: .5rem;
+}
+
+.menu__btn>i {
+    color: var(--white);
 }
 
 #menu-switcher {
     display: none;
 }
 
-.menu__btn i {
-    font-size: 2rem;
-    color: #fff;
+#menu-switcher:checked+.menu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--light-black);
+    width: 100%;
 }
 
 .menu {
@@ -34,15 +55,6 @@
 
 .menu__item {
     padding: 10px;
-}
-
-.menu__btn {
-    cursor: pointer;
-    margin-right: 1rem;
-}
-
-#menu-switcher:checked + .menu {
-    display: block;
 }
 
 .header__btn {
@@ -82,6 +94,7 @@
     width: 100%;
 }
 
+/* END OF HEADER SECTION */
 h2 {
     font-weight: normal;
     text-align: center;

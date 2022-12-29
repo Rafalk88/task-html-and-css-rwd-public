@@ -1,0 +1,7 @@
+:root {
+  --typo-big: 1.5rem;
+}
+
+.typo--big {
+  font-size: var(--typo-big);
+}
