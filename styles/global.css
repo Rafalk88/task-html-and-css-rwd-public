@@ -12,14 +12,15 @@ body, button {
 a {
     text-decoration: none;
     color: var(--white);
-    }
-    
-    .container {
-        width: 100%;
-    }
-    
-    .wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+}
+.btn {
+    height: 50px;
+    background-color: inherit;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn--header {
+    width: 170px;
+    background-color: var(--light-blue);
 }

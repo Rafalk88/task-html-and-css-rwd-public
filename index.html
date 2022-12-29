@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/flexboxgrid.min.css">
     <link rel="stylesheet" href="./styles/theme.css">
     <link rel="stylesheet" href="./styles/typography.css">
     <link rel="stylesheet" href="./styles/mobile.css">
@@ -17,12 +18,12 @@
     <link rel="stylesheet" media="(min-width: 1200px)" href="./styles/desktop.css">
 </head>
 <body>
-    <header class="container container--header">
-        <div class="wrapper wrapper--header">
+    <header class="row container">
+        <div class="col-xs-12 wrapper wrapper--header">
             <h1 class="header__image"><a href="#"><img class="header__image-file" src="./images/logo.png"
                         alt="logo-image" /></a></h1>
             <nav>
-                <label for="menu-switcher" class="menu__btn"><i class="fa-solid fa-bars typo--big"></i></label>
+                <label for="menu-switcher" class="menu__btn"><i class="fa-solid fa-bars typo--very-big typo--white"></i></label>
                 <input type="checkbox" id="menu-switcher">
                 <ul class="menu">
                     <li class="menu__item">
@@ -44,21 +45,22 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-                </nav>
+            </nav>
                 <div class="header__btn"><button class="h__btn">Download</button></div>
                 </div>
-                <section>
-                    <div class="header__sections">
-                        <div class="header__section1">
-                            <h1>Promote Your App With<br> Applab</h1>
-                            <p>Get more users to promote your app with this template</p>
-                            <button class="s__btn">Get Start Now</button>
-                        </div>
-                        <div class="header__section2">
-                            <img src="./images/phone.png" alt="" />
-                        </div>
-                    </div>
-                </section>
+        <section class="col-xs-12">
+            <div class="wrapper--sections">
+                <article class="col-xs-12 wrapper__text-section">
+                    <h1 class="typo--very-big typo--normal typo--white">Promote Your App With Applab</h1>
+                    <p class="text-section__text typo--small typo--white">Get more users to promote your app with this
+                        template</p>
+                    <button class="btn btn--header typo--regular typo--white">Get Start Now</button>
+                </article>
+                <figure class="col-xs-12 wrapper__image-section">
+                    <img src="./images/phone.png" alt="phone-image" />
+                </figure>
+            </div>
+        </section>
     </header>
 
     <main>

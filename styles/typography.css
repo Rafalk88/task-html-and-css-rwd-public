@@ -1,7 +1,39 @@
 :root {
-  --typo-big: 1.5rem;
+  /* font size */
+    --very-small: .67rem;
+    --small: .87rem;
+    --regular: 1rem;
+    --big: 1.5rem;
+    --very-big: 2rem;
+  
+    /* font weight */
+    --normal: normal;
+  }
+  
+  .typo--very-small {
+    font-size: var(--very-small);
+  }
+  
+  .typo--small {
+    font-size: var(--small);
+  }
+  
+  .typo--regular {
+    font-size: var(--regular);
 }
 
 .typo--big {
-  font-size: var(--typo-big);
+  font-size: var(--big);
+  }
+  
+  .typo--very-big {
+    font-size: var(--very-big);
+  }
+  
+  .typo--normal {
+    font-weight: var(--normal);
+  }
+  
+  .typo--white {
+    color: var(--white);
 }
