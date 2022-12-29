@@ -24,3 +24,7 @@ a {
     width: 170px;
     background-color: var(--light-blue);
 }
+.btn--features {
+    width: 200px;
+    background-color: var(--blue);
+}

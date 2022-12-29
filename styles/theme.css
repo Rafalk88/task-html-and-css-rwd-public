@@ -1,4 +1,5 @@
 :root {
+  --blue: rgb(1, 129, 245);
   --gradient-blue: linear-gradient(to right, #0382F5, #52ACFE);
     --gradient-orange: linear-gradient(to left, #FD8F5E, #FDAC5C);
     --grey: rgba(0, 0, 0, 0.75);
