@@ -33,12 +33,22 @@
 .typo--normal {
   font-weight: var(--normal);
 }
+.typo--blue {
+  color: var(--blue);
+}
 .typo--gold {
   color: var(--gold);
 }
 
 .typo--grey {
   color: var(--grey);
+}
+.typo--dark-green {
+  color: var(--dark-green);
+}
+
+.typo--orange {
+  color: var(--orange);
 }
 .typo--white {
   color: var(--white);

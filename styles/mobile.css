@@ -2,6 +2,7 @@
 
 :root {
     --header-height: 3.125rem;
+    --pricing-box-shadow: 0px 10px 30px rgb(238, 235, 235);
 }
 
 .container {
@@ -183,11 +184,49 @@
     margin-top: 3rem;
 }
 
-.pricing__item {}
+.pricing>h2 {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
 
-.item__header {}
+.pricing__item {
+    box-shadow: var(--pricing-box-shadow);
+    margin: 1.5rem 0;
+}
 
-.item__text {}
+.item__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.header--blue {
+    background-color: var(--mint);
+}
+
+.header--orange {
+    background-color: var(--light-red);
+}
+
+.header--green {
+    background-color: var(--mint-two);
+}
+
+.item__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.item__text>* {
+    padding: 1rem 0;
+}
+
+.item__text *:last-child {
+    margin-bottom: 2rem;
+}
 
 .download {
     background-image: url('./../images/banner/product.png');
