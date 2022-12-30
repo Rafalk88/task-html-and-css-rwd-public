@@ -30,13 +30,16 @@
     font-size: var(--very-big);
   }
   
-  .typo--normal {
-    font-weight: var(--normal);
-  }
-  
-  .typo--white {
-    color: var(--white);
+.typo--normal {
+  font-weight: var(--normal);
 }
+.typo--gold {
+  color: var(--gold);
+}
+
 .typo--grey {
   color: var(--grey);
+}
+.typo--white {
+  color: var(--white);
 }

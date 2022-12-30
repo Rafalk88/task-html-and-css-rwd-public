@@ -1,10 +1,11 @@
 :root {
   --blue: rgb(1, 129, 245);
-  --gradient-blue: linear-gradient(to right, #0382F5, #52ACFE);
-    --gradient-orange: linear-gradient(to left, #FD8F5E, #FDAC5C);
+    --gradient-blue: linear-gradient(to right, rgba(3, 130, 245, 1), rgba(82, 172, 254, 1));
+      --gold: rgb(255, 215, 0, 1);
+      --gradient-orange: linear-gradient(to left, rgba(253, 143, 94, 1), rgba(253, 172, 92, 1));
     --grey: rgba(0, 0, 0, 0.75);
   --light-black: rgba(44, 44, 44, 1);
   --light-blue: rgba(55, 235, 237, 1);
   --light-green: rgba(55, 239, 141, 1);
-    --white: rgba(255, 255, 255, 1);
+  --white: rgba(255, 255, 255, 1);
 }
