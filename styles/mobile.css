@@ -5,74 +5,7 @@
     --pricing-box-shadow: 0px 10px 30px rgb(238, 235, 235);
 }
 
-.grid {
-    display: grid;
-    grid-template-areas:
-        "a-nav"
-        "a-hero"
-        "a-save"
-        "a-features"
-        "a-review"
-        "a-pricing"
-        "a-download"
-        "a-links"
-        "a-footer";
-    grid-template-rows: auto;
-}
-
-.nav,
-.hero,
-.save,
-.features,
-.review,
-.pricing,
-.download,
-.links,
-.footer {
-    max-width: 100%;
-}
-
-/* GRID AREAS */
-
-.nav {
-    grid-area: a-nav;
-}
-
-.hero {
-    grid-area: 2 / 1 / -8 / 2;
-}
-
-.save {
-    grid-area: a-save;
-}
-
-.features {
-    grid-area: a-features;
-}
-
-.review {
-    grid-area: a-review;
-}
-
-.pricing {
-    grid-area: a-pricing;
-}
-
-.download {
-    grid-area: a-download;
-}
-
-.links {
-    grid-area: a-links;
-}
-
-.footer {
-    grid-area: a-footer;
-}
-
-/* END OF GRID AREAS */
 .container {
-    width: 100%;
     display: flex;
         flex-direction: column;
         align-items: center;
@@ -96,7 +29,7 @@
 }
 .wrapper {
     width: 100%;
-        max-width: 900px;
+        max-width: 1024px;
         padding: 0 .625rem;
         margin: 0 auto;
     }
@@ -297,24 +230,30 @@
     margin-bottom: 2rem;
 }
 
+/* DOWNLOAD SECTION */
 .download {
     background-image: url('./../images/banner/product.png');
     background-position: top;
-}
-.download__btns {
-    display: flex;
-    margin-top: 1rem;
 }
 
 .download>.wrapper {
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    flex-direction: column;
 }
 
+.download__btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.download__btns>*:first-child {
+    margin-right: .8rem;
+}
+
+/* END OF DOWNLOAD SECTION */
 .links {
     width: 100%;
     background-color: var(--grey);
@@ -345,20 +284,12 @@
     cursor: pointer;
 }
 
-.links__list {
-    margin-top: 2rem;
+.links__link>* {
+    margin-bottom: 2rem;
 }
 
-.links__list * {
+.links__link>*>* {
     margin-bottom: 1rem;
-}
-
-.links__link>*:first-child {
-    margin-bottom: 2rem;
-}
-
-.links__link>*:last-child {
-    margin-bottom: 2rem;
 }
 
 .footer {

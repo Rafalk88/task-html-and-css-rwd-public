@@ -11,15 +11,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/grid.css">
     <link rel="stylesheet" href="./styles/theme.css">
     <link rel="stylesheet" href="./styles/typography.css">
     <link rel="stylesheet" href="./styles/mobile.css">
-    <link rel="stylesheet" media="(min-width: 900px)" href="./styles/tablet.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="./styles/tablet.css">
     <link rel="stylesheet" media="(min-width: 1200px)" href="./styles/desktop.css">
 </head>
 <body>
-    <header class="grid header ">
-        <section class="nav" id="nav">
+    <header class="container col-xs-12 header ">
+        <section class="nav col-xs-12" id="nav">
             <div class="wrapper nav__wrapper">
                 <h1 class="header__image"><a href=""><img class="header__image-file" src="./images/logo.png"
                             alt="logo-image" /></a></h1>
@@ -50,36 +51,36 @@
                 <div class="header__btn"><button class="h__btn">Download</button></div>
             </div>
         </section>
-        <section class="hero" id="hero">
+        <section class="hero col-xs-12" id="hero">
             <div class="wrapper">
-                <article class="hero__text-section">
+                <article class="hero__text-section col-md-6">
                     <h1 class="typo--very-big typo--normal typo--white">Promote Your App With Applab</h1>
                     <p class="text-section__text typo--small typo--white">Get more users to promote your app with this
                         template</p>
                     <button class="btn btn--header typo--regular typo--white">Get Start Now</button>
                 </article>
-                <figure class="hero__image-section">
+                <figure class="hero__image-section col-md-6">
                     <img src="./images/phone.png" alt="phone-image" />
                 </figure>
             </div>
         </section>
     </header>
 
-    <main class="grid">
+    <main class="container col-xs-12">
         <section class="save wrapper" id="save">
-            <h2 class="typo--regular typo--normal">Save your time to using applab</h2>
-            <section>
-                <article class="save__article">
+            <h2 class="typo--big typo--normal typo--grey">Save your time to<br /> using applab</h2>
+            <section class="col-xs-12">
+                <article class="save__article col-md-4">
                     <div class="sitemap font"><i class="fa-solid fa-sitemap typo--big typo--white"></i></div>
                     <p class="typo--grey">Manage team in<br /> One Place</p>
                 </article>
 
-                <article class="save__article">
+                <article class="save__article col-md-4">
                     <div class="leaf font"><i class="fa-solid fa-leaf typo--big typo--white"></i></div>
-                    <p class="typo--grey">All-powerfull Pointing<br /> has no control</p>
+                    <p class="typo--grey">All-powerfull<br /> Pointing<br /> has no control</p>
                 </article>
 
-                <article class="save__article">
+                <article class="save__article col-md-4">
                     <div class="message font"><i class="fa-solid fa-message typo--big typo--white"></i></div>
                     <p class="typo--grey">Establish a solid<br /> online presence</p>
                 </article>
@@ -87,20 +88,20 @@
             </section>
 
         <section class="features wrapper" id="features">
-            <article class="features__section">
-                <h2 class="typo--normal">Features that give you real feel</h2>
+            <article class="features__section col-md-6">
+                <h2 class="typo--big typo--normal">Features that give<br /> you real feel</h2>
                 <p class="typo--grey">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis magnam impedit aspernatur
                     nostrum fugiat, reprehenderit voluptas provident cupiditate, accusantium quasi a quos nesciunt? Dolores, quia
                     fugiat earum atque officiis nihil.</p>
                 <button class="btn btn--features typo--regular typo--white">Download Now</button>
             </article>
 
-            <figure class="features__section__image">
+            <figure class="features__section__image col-md-6">
                 <img src="./images/draw.png" alt="features-image">
             </figure>
         </section>
 
-        <section class="review" id="review">
+        <section class="review col-xs-12" id="review">
             <div class="review__cover">
                 <article class="review__article wrapper">
                     <h2 class="typo--big typo--normal typo--white">Review from our regular<br /> users</h2>
@@ -118,13 +119,13 @@
             </div>
         </section>
 
-        <section class="pricing wrapper" id="pricing">
+        <section class="pricing wrapper col-xs-12" id="pricing">
             <h2 class="typo--big typo--normal">Unlock full Power</h2>
             <p class="typo--small typo--grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum possimus culpa voluptas
                 non
                 eum explicabo.</p>
-            <section class="">
-                <article class="pricing__item">
+            <section class="pricing__variants col-xs-12">
+                <article class="pricing__item col-md-4">
                     <header class="item__header header--blue">
                         <p class="typo--normal typo--normal">Basic</p>
                         <p class="item__price--basic typo--blue">$06</p>
@@ -137,7 +138,7 @@
                         <button class="btn btn--pricing typo--blue">Get Now</button>
                     </ul>
                 </article>
-                <article class="pricing__item">
+                <article class="pricing__item col-md-4">
                     <header class="item__header header--orange">
                         <p class="typo--normal typo--normal">Team</p>
                         <p class="item__price--team typo--orange">$06</p>
@@ -151,7 +152,7 @@
                         <button class="btn btn--pricing typo--blue">Get Now</button>
                     </ul>
                 </article>
-                <article class="pricing__item">
+                <article class="pricing__item col-md-4">
                     <header class="item__header header--green">
                         <p class="typo--normal typo--normal">Business</p>
                         <p class="item__price--business typo--dark-green">$06</p>
@@ -167,9 +168,9 @@
                 </section>
         </section>
 
-        <section class="download" id="download">
+        <section class="download col-xs-12" id="download">
             <section class="wrapper">
-                <h2 class="typo--big typo--white">Get start from now and inrease productivity</h2>
+                <h2 class="typo--big typo--white">Get start from now<br /> and inrease productivity</h2>
                 <ul class="download__btns">
                     <li><a href="https://www.apple.com/pl/app-store/"><img src="./images/app.svg" alt="apple-store"></a></li>
                     <li><a href="https://play.google.com/store/games?hl=pl&pli=1"><img src="./images/play.svg" alt="google-store"></a>
@@ -179,49 +180,48 @@
         </section>
     </main>
 
-    <footer class="grid">
-        <section class="links" id="links">
-            <div class="wrapper">
-                <h3 class="typo--big typo--white">AppLab</h3>
-                <p class="typo--small typo--white">Firmament morning sixth subdue darkness creeping gathered divide.</p>
-                <section class="links__icons typo--white">
-                    <div><a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a></i></div>
-                    <div><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></i></div>
-                    <div><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></i></div>
+    <footer class="container col-xs-12">
+        <section class="links col-xs-12" id="links">
+            <div class="wrapper links__wrapper">
+                <section class="links__link col-xs-12 col-md-6">
+                    <h3 class="typo--big typo--white">AppLab</h3>
+                    <p class="typo--small typo--white">Firmament morning sixth subdue darkness creeping gathered
+                        divide.</p>
+                    <section class="links__icons typo--white">
+                        <div><a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a></i></div>
+                        <div><a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></i></div>
+                        <div><a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a></i></div>
+                    </section>
                 </section>
-                <section class="links__list">
-                    <ul class="typo--white">
-                        <li class="links__link">
-                            <h4 class="typo--big typo--white">Services</h4>
-                            <ul>
-                                <li class="typo--small"><a href="./#team">Team management</a></li>
-                                <li class="typo--small"><a href="#">Collaboration</a></li>
-                                <li class="typo--small"><a href="#">Todo</a></li>
-                                <li class="typo--small"><a href="#">Events</a></li>
-                            </ul>
-                        </li>
-                        <li class="links__link">
-                            <h4 class="typo--big typo--white">Useful Links</h4>
-                            <ul>
-                                <li class="typo--small"><a href="./#pricing">Pricing</a></li>
-                                <li class="typo--small"><a href="./#features">Features</a></li>
-                                <li class="typo--small"><a href="#">Blog</a></li>
-                                <li class="typo--small"><a href="#">Contact</a></li>
-                            </ul>
-                        </li>
-                        <li class="links__link">
-                            <h4 class="typo--big typo--white">Downloads</h4>
-                            <ul>
-                                <li class="typo--small"><a href="https://www.apple.com/pl/app-store/">Download from Apple Store</a></li>
-                                <li class="typo--small"><a href="https://play.google.com/store/games?hl=pl&pli=1">Download from Play Store</a>
-                                </li>
-                            </ul>
-                        </li>
+                <article class="links__link col-xs-12 col-md-6">
+                    <h4 class="typo--big typo--white">Services</h4>
+                    <ul>
+                        <li class="typo--small"><a href="./#team">Team management</a></li>
+                        <li class="typo--small"><a href="#">Collaboration</a></li>
+                        <li class="typo--small"><a href="#">Todo</a></li>
+                        <li class="typo--small"><a href="#">Events</a></li>
                     </ul>
-                </section>
+                </article>
+                <article class="links__link col-xs-12 col-md-6">
+                    <h4 class="typo--big typo--white">Useful Links</h4>
+                    <ul>
+                        <li class="typo--small"><a href="./#pricing">Pricing</a></li>
+                        <li class="typo--small"><a href="./#features">Features</a></li>
+                        <li class="typo--small"><a href="#">Blog</a></li>
+                        <li class="typo--small"><a href="#">Contact</a></li>
+                    </ul>
+                </article>
+                <article class="links__link col-xs-12 col-md-6">
+                    <h4 class="typo--big typo--white">Downloads</h4>
+                    <ul>
+                        <li class="typo--small"><a href="https://www.apple.com/pl/app-store/">Download from Apple Store</a></li>
+                        <li class="typo--small"><a href="https://play.google.com/store/games?hl=pl&pli=1">Download from Play Store</a>
+                        </li>
+                        </ul>
+                </article>
             </div>
         </section>
-        <section class="footer" id="footer">
+        <section class="footer col-xs-12" id="footer">
             <div class="wrapper">
                 <h6 class="typo--small typo--white">Copyright &copy; 2022 All rights reserved | This template is made with <i
                         class="fa-regular fa-heart"></i>
