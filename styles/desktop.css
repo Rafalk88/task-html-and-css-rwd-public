@@ -1,33 +1,67 @@
-.header__logo {
-    margin: 30px 20px;
+.nav {
+    background-color: inherit;
+    margin-top: 1.5rem;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
+.wrapper {
+    max-width: 1024px;
+    padding: 0 2rem;
 }
 
-.h__btn {
-    width: 125px;
-    height: 50px;
-    color: #fff;
-    background-color: #42B3FA;
-    border: 1px solid #42B3FA;
-    border-radius: 5px;
+.wrapper.nav__wrapper {
+    padding: 1rem;
+}
+
+.hero>.wrapper {
+    padding: 0 2rem;
+}
+
+.menu__btn {
+    display: none;
 }
 
 .menu {
     display: flex;
-    margin: 30px;
 }
 
-.header__btn {
-    margin: 30px 20px;
-}
-
-.header__section {
+.pc__width {
     display: flex;
+}
+
+.nav__btn,
+.arrow--lg {
+    display: block;
+}
+
+.arrow--lg {
+    margin-left: .5rem;
+    transform: rotate(90deg);
+}
+
+.save>h2 {
+    margin-top: 8rem;
+}
+
+.features__section {
+    padding-right: 4rem;
+}
+
+.features__section__image {
+    margin-left: 2rem;
+}
+
+.pricing.wrapper>*:nth-child(2) {
+    text-align: center;
+}
+
+.download>.wrapper {
+    flex-direction: row;
+}
+
+.download__btns {
+    margin-top: 0;
+}
+
+.wrapper.links__wrapper {
     justify-content: space-between;
-    flex-basis: 50%;
-    margin-top: 100px;
 }

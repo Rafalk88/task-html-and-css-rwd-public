@@ -13,6 +13,11 @@ a {
     border-radius: 5px;
     cursor: pointer;
 }
+.n__btn {
+    width: 125px;
+    background-color: var(--btn-blue);
+    border: 1px solid var(--btn-blue);
+}
 .btn--header {
     width: 170px;
     background-color: var(--light-blue);

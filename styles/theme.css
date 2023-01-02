@@ -1,14 +1,14 @@
 :root {
   --light-blue: rgba(55, 235, 237, 1);
-    --medium-blue: rgba(82, 172, 254, 1);
+  --medium-blue: rgba(82, 172, 254, 1);
   --blue: rgb(1, 129, 245);
   --mint: rgba(233, 244, 254, 1);
-    --mint-two: rgba(232, 252, 241, 1);
+  --mint-two: rgba(232, 252, 241, 1);
     --gradient-blue: linear-gradient(to right, rgba(3, 130, 245, 1), var(--medium-blue));
-  
+  --btn-blue: rgba(66, 179, 250, 1);
     --gold: rgb(255, 215, 0, 1);
   --orange: rgba(253, 143, 94, 1);
-    --light-red: rgba(254, 244, 238, 1);
+  --light-red: rgba(254, 244, 238, 1);
     --gradient-orange: linear-gradient(to left, rgba(253, 143, 94, 1), var(--orange));
     --grey: rgba(0, 0, 0, 0.75);
     --black: rgba(0, 0, 0, 1);

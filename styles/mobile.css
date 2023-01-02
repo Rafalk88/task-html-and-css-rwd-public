@@ -47,7 +47,8 @@
 
 #menu-switcher,
 .menu,
-.header__btn {
+.arrow--lg,
+.nav__btn {
     display: none;
 }
 

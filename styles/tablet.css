@@ -1,78 +1,76 @@
-@media screen and (min-width: 768px) {
-  .wrapper {
-    max-width: 600px;
-  }
+.wrapper {
+  max-width: 600px;
+}
 
-  .wrapper.nav__wrapper {
-    max-width: 1024px;
-    padding: 0 2.5rem;
-  }
+.wrapper.nav__wrapper {
+  max-width: 1024px;
+  padding: 0 2.5rem;
+}
 
-  .hero>.wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
+.hero>.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
 
-  .hero__text-section>*:first-child {
-    margin-top: 5.5rem;
-  }
+.hero__text-section>*:first-child {
+  margin-top: 5.5rem;
+}
 
-  .save.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.save.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .save>h2 {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
+.save>h2 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
 
-  .save.wrapper>*:last-child {
-    display: flex;
-  }
+.save.wrapper>*:last-child {
+  display: flex;
+}
 
-  .features.wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.features.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .features__section {
-    padding: 0 .5rem;
-  }
+.features__section {
+  padding: 0 .5rem;
+}
 
-  .features__section>h2 {
-    text-align: start;
-  }
+.features__section>h2 {
+  text-align: start;
+}
 
-  .features__section__image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.features__section__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .pricing>h2 {
-    margin-top: 4rem;
-  }
+.pricing>h2 {
+  margin-top: 4rem;
+}
 
-  .pricing.wrapper>*:nth-child(2) {
-    margin-bottom: 1rem;
-  }
+.pricing.wrapper>*:nth-child(2) {
+  margin-bottom: 1rem;
+}
 
-  .pricing__variants {
-    display: flex;
-    align-items: center;
-  }
+.pricing__variants {
+  display: flex;
+  align-items: center;
+}
 
-  .pricing__variants>*:first-child,
-  .pricing__variants>*:last-child {
-    height: 348px;
-  }
+.pricing__variants>*:first-child,
+.pricing__variants>*:last-child {
+  height: 348px;
+}
 
-  .links__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
+.links__wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
