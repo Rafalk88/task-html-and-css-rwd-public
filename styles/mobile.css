@@ -7,6 +7,9 @@
 
 .container {
     width: 100%;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .header {
@@ -34,6 +37,7 @@
 
 .nav,
 .nav__wrapper {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -231,4 +235,69 @@
 .download {
     background-image: url('./../images/banner/product.png');
     background-position: top;
+}
+.download__btns {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.download>.wrapper {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.links {
+    width: 100%;
+    background-color: var(--grey);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.links>.wrapper>*:first-child {
+    margin-bottom: 1rem;
+}
+
+.links__icons {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.links__icons>* {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+    background-color: var(--dark-white);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.links__list {
+    margin-top: 2rem;
+}
+
+.links__list * {
+    margin-bottom: 1rem;
+}
+
+.links__link>*:first-child {
+    margin-bottom: 2rem;
+}
+
+.links__link>*:last-child {
+    margin-bottom: 2rem;
+}
+
+.footer {
+    background-color: var(--black);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer>.wrapper {
+    text-align: center;
 }

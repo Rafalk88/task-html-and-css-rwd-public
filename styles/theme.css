@@ -11,8 +11,10 @@
     --light-red: rgba(254, 244, 238, 1);
     --gradient-orange: linear-gradient(to left, rgba(253, 143, 94, 1), var(--orange));
     --grey: rgba(0, 0, 0, 0.75);
+    --black: rgba(0, 0, 0, 1);
   --light-black: rgba(44, 44, 44, 1);
   --light-green: rgba(55, 239, 141, 1);
   --dark-green: rgb(11, 190, 95);
   --white: rgba(255, 255, 255, 1);
+  --dark-white: rgba(255, 255, 255, 0.45);
 }
