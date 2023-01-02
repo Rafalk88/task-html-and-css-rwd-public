@@ -18,17 +18,30 @@ a {
     background-color: var(--btn-blue);
     border: 1px solid var(--btn-blue);
 }
+.n__btn:hover {
+    background-color: var(--btn-blue-hover);
+    border: var(--btn-blue-hover);
+}
 .btn--header {
     width: 170px;
     background-color: var(--light-blue);
 }
+.btn--header:hover {
+    background-color: var(--light-blue-hover);
+}
 .btn--features {
     width: 200px;
     background-color: var(--blue);
+}
+.btn--features:hover {
+    background-color: var(--blue-hover);
 }
 .btn.btn--pricing {
     padding: .3rem 1.3rem;
     border: 1px solid var(--blue);
     border-radius: 5px;
     height: 100%;
+}
+.btn.btn--pricing:hover {
+    background-color: var(--white-hover);
 }

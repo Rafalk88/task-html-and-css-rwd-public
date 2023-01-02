@@ -1,20 +1,24 @@
 :root {
   --light-blue: rgba(55, 235, 237, 1);
+  --light-blue-hover: rgba(95, 239, 241, 1);
   --medium-blue: rgba(82, 172, 254, 1);
-  --blue: rgb(1, 129, 245);
+  --blue: rgba(1, 129, 245, 1);
+    --blue-hover: rgba(52, 154, 247, 1);
   --mint: rgba(233, 244, 254, 1);
   --mint-two: rgba(232, 252, 241, 1);
     --gradient-blue: linear-gradient(to right, rgba(3, 130, 245, 1), var(--medium-blue));
   --btn-blue: rgba(66, 179, 250, 1);
+  --btn-blue-hover: rgba(104, 194, 251, 1);
     --gold: rgb(255, 215, 0, 1);
   --orange: rgba(253, 143, 94, 1);
   --light-red: rgba(254, 244, 238, 1);
-    --gradient-orange: linear-gradient(to left, rgba(253, 143, 94, 1), var(--orange));
+    --gradient-orange: linear-gradient(to left, var(--orange), rgba(253, 174, 92, 1));
     --grey: rgba(0, 0, 0, 0.75);
     --black: rgba(0, 0, 0, 1);
   --light-black: rgba(44, 44, 44, 1);
   --light-green: rgba(55, 239, 141, 1);
   --dark-green: rgb(11, 190, 95);
   --white: rgba(255, 255, 255, 1);
+  --white-hover: rgba(230, 230, 230, 1);
   --dark-white: rgba(255, 255, 255, 0.45);
 }
